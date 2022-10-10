@@ -1,0 +1,9 @@
+CREATE TABLE user (email varchar(25),password varchar(25),name varchar(25),phno varchar(25),adno
+varchar(25));
+
+CREATE TABLE flights (name varchar(25),fromf varchar(25),tof varchar(25),datef varchar(25),timef
+varchar(25),price varchar(25));
+
+CREATE TABLE admin (email varchar(25),password varchar(25));
+
+INSERT INTO admin(email,password) VALUES('admin@gmail.com';,'admin123');
